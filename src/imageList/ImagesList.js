@@ -3,6 +3,17 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 
 import pic1 from "../img/pic002.png";
+import pic2 from "../img/pic_0178.png";
+import pic3 from "../img/pic_0712.png";
+import pic4 from "../img/pic_1919.png";
+import pic5 from "../img/pic170.png";
+import pic6 from "../img/pic238.png";
+import pic7 from "../img/pic064.png";
+import pic8 from "../img/pic238.png";
+/* import pic9 from "../img/pic_4282.png" */
+import pic10 from "../img/pic_1911.png";
+import pic11 from "../img/pic4.png";
+import pic12 from "../img/pic111.png";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -41,60 +52,59 @@ export default function QuiltedImageList() {
 const itemData = [
   {
     img: pic1,
-    title: "Breakfast",
+    title: "pic1",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-    title: "Burger",
+    img: pic5,
+    title: "pic5",
   },
   {
-    img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
-    title: "Camera",
+    img: pic4,
+    title: "pic4",
   },
   {
-    img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
-    title: "Coffee",
+    img: pic6,
+    title: "pic6",
     cols: 2,
   },
   {
-    img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
-    title: "Hats",
+    img: pic2,
+    title: "pic2",
     cols: 2,
   },
   {
-    img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
-    title: "Honey",
-    author: "@arwinneil",
+    img: pic3,
+    title: "pic3",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
-    title: "Basketball",
+    img: pic7,
+    title: "pic7",
   },
   {
-    img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
-    title: "Fern",
+    img: pic8,
+    title: "pic8",
   },
   {
-    img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
+    img: pic10,
     title: "Mushrooms",
     rows: 2,
     cols: 2,
   },
   {
-    img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
-    title: "Tomato basil",
+    img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
+    title: "pic10",
   },
   {
-    img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
-    title: "Sea star",
+    img: pic11,
+    title: "pic11",
   },
   {
-    img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
-    title: "Bike",
+    img: pic12,
+    title: "",
     cols: 2,
   },
 ];
