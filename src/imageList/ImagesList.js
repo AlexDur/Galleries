@@ -103,10 +103,12 @@ const itemData = [
     img: pic11,
     title: "blue mountains",
     cols: 2,
+    rows: 2,
   },
   {
     img: pic12,
-    title: "shadow and sun valley",
-    cols: 2,
+    title: "shadowy and sunny valley",
+    cols: 4,
+    rows: 3,
   },
 ];
