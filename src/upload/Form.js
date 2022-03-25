@@ -10,7 +10,7 @@ const Form = () => {
   return (
     <form>
       <Input type="file" multiple sx={{ display: "none" }} inputRef={fileRef} />
-      <Fab color="primary" aria-label="add" onClick={handleClick}>
+      <Fab color="warning" aria-label="add" onClick={handleClick}>
         <Add fontSize="large" />
       </Fab>
     </form>

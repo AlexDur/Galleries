@@ -32,7 +32,7 @@ export default function Nav() {
   });
   return (
     <React.Fragment>
-      <h1>The Black Forest</h1>
+      <h1 style={{ fontFamily: "Bodoni Moda" }}> The Black Forest</h1>
       <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
         {!currentUser ? (
           <Button startIcon={<Terrain />}>Login</Button>

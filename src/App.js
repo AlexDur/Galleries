@@ -10,7 +10,7 @@ import Uploads from "./upload/Uploads";
 
 const App = () => {
   return (
-    <Container maxWidth="xl" sx={{ textAlign: "center", mt: "3rem" }}>
+    <Container maxWidth="lg" sx={{ textAlign: "center", mt: "3rem" }}>
       <Nav />
       <Uploads />
       <br />
