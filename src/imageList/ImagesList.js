@@ -9,7 +9,7 @@ import pic4 from "../img/pic_1919.png";
 import pic5 from "../img/pic170.png";
 import pic6 from "../img/pic238.png";
 import pic7 from "../img/pic064.png";
-import pic8 from "../img/pic238.png";
+import pic8 from "../img/bach.png";
 /* import pic9 from "../img/pic_4282.png" */
 import pic10 from "../img/pic_1911.png";
 import pic11 from "../img/pic4.png";
