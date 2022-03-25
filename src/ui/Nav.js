@@ -32,6 +32,7 @@ export default function Nav() {
   });
   return (
     <React.Fragment>
+      <h1>From the Black Forest</h1>
       <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
         {!currentUser ? (
           <Button startIcon={<Terrain />}>Login</Button>
