@@ -25,83 +25,13 @@ export default function Nav() {
     setAnchorEl(null);
   };
   profil_A = null;
-  const [currentUser, setCurrentUser] = React.useState({
-    email: "alexdurach@gmail.com",
-    displayName: "Alex",
-    photoURL: profil_A,
-  });
+
   return (
     <React.Fragment>
-      <h1 style={{ fontFamily: "Bodoni Moda" }}> The Black Forest</h1>
-      <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
-        {!currentUser ? (
-          <Button startIcon={<Terrain />}>Login</Button>
-        ) : (
-          <Tooltip title="Account settings">
-            <IconButton onClick={handleClick} size="small" sx={{ ml: 2 }}>
-              <Avatar
-                sx={{ width: 54, height: 54 }}
-                src={currentUser?.photoURL}
-              >
-                {currentUser?.displayName?.charAt(0)?.toUpperCase() ||
-                  currentUser?.email?.charAt(0)?.toUpperCase()}
-              </Avatar>
-            </IconButton>
-          </Tooltip>
-        )}
-      </Box>
-      <Menu
-        anchorEl={anchorEl}
-        id="account-menu"
-        open={open}
-        onClose={handleClose}
-        onClick={handleClose}
-        PaperProps={{
-          elevation: 0,
-          sx: {
-            overflow: "visible",
-            filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
-            mt: 1.5,
-            "& .MuiAvatar-root": {
-              width: 32,
-              height: 32,
-              ml: -0.5,
-              mr: 1,
-            },
-            "&:before": {
-              content: '""',
-              display: "block",
-              position: "absolute",
-              top: 0,
-              right: 14,
-              width: 10,
-              height: 10,
-              bgcolor: "background.paper",
-              transform: "translateY(-50%) rotate(45deg)",
-              zIndex: 0,
-            },
-          },
-        }}
-        transformOrigin={{ horizontal: "right", vertical: "top" }}
-        anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
-      >
-        <MenuItem>
-          <Avatar /> Profile
-        </MenuItem>
-        <Divider />
-        <MenuItem>
-          <ListItemIcon>
-            <Settings fontSize="small" />
-          </ListItemIcon>
-          Settings
-        </MenuItem>
-        <MenuItem>
-          <ListItemIcon>
-            <Logout fontSize="small" />
-          </ListItemIcon>
-          Logout
-        </MenuItem>
-      </Menu>
+      <h1 style={{ fontFamily: "'Rubik Wet Paint', cursive" }}>
+        {" "}
+        Released from hell
+      </h1>
     </React.Fragment>
   );
 }

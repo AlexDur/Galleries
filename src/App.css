@@ -8,10 +8,28 @@
 
 html,
 body {
-  background: blue;
-  height: 100;
-  color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    -45deg,
+    #c30b08,
+    #ef1d2e,
+    rgb(96, 1, 1),
+    rgb(83, 9, 9)
+  );
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 a {
@@ -121,6 +139,11 @@ input[type="text"] {
 .card li {
   list-style: none;
   padding-bottom: 10px;
+}
+
+.player {
+  margin-top: 30px;
+  display: inline-block;
 }
 
 @media (max-width: 800px) {

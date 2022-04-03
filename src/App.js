@@ -6,13 +6,13 @@ import ProjectsGrid from "./ui/ProjectsGrid"; */
 import Nav from "./ui/Nav";
 import ImagesList from "./imageList/ImagesList";
 import Container from "@mui/material/Container";
-import Uploads from "./upload/Uploads";
+/* import Uploads from "./upload/Uploads"; */
 
 const App = () => {
   return (
-    <Container maxWidth="lg" sx={{ textAlign: "center", mt: "3rem" }}>
+    <Container maxWidth="xxl" sx={{ textAlign: "center", mt: "3rem" }}>
       <Nav />
-      <Uploads />
+      {/* <Uploads /> */}
       <br />
       <br />
       <ImagesList />
