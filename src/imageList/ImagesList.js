@@ -19,9 +19,11 @@ import myVideo from "../video/goat_fight.mp4";
 
 const Video = () => {
   return (
-    <div className="player">
-      <ReactPlayer controls url={myVideo} />
-    </div>
+    <>
+      <div className="player">
+        <ReactPlayer controls url={myVideo} />
+      </div>
+    </>
   );
 };
 

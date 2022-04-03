@@ -14,6 +14,7 @@ import Logout from "@mui/icons-material/Logout";
 import Terrain from "@mui/icons-material/Terrain";
 import { Button } from "@material-ui/core";
 import profil_A from "../img/profile_Alex.png";
+import boxing_ibf from "../img/boxing_ibf.png";
 
 export default function Nav() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,10 +29,21 @@ export default function Nav() {
 
   return (
     <React.Fragment>
-      <h1 style={{ fontFamily: "'Rubik Wet Paint', cursive" }}>
+      <h1
+        style={{
+          fontFamily: "Graduate, cursive",
+          fontWeight: 100,
+          color: "white",
+        }}
+      >
         {" "}
-        Released from hell
+        Who will be the <u>G</u>reatest <u>O</u>f <u>A</u>ll <u>T</u>ime?
       </h1>
+      <img
+        style={{ width: 100, marginTop: 50 }}
+        src={boxing_ibf}
+        alt="IBF icon"
+      />
     </React.Fragment>
   );
 }
