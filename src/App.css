@@ -8,7 +8,7 @@
 
 html,
 body {
-  background: linear-gradient(rgb(45, 220, 236), rgb(255, 136, 0));
+  background: blue;
   height: 100;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
