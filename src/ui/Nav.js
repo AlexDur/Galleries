@@ -17,16 +17,6 @@ import profil_A from "../img/profile_Alex.png"; */
 import boxing_ibf from "../img/boxing_ibf.png";
 
 export default function Nav() {
-  /*   const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = event => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  }; */
-  /* profil_A = null; */
-
   return (
     <React.Fragment>
       <h1
