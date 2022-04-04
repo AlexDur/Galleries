@@ -1,30 +1,40 @@
 import * as React from "react";
-/* import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox"; */
 
-/* import "./App.css"; */
-
-import ReactPlayer from "react-player";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
 
 /* import pic1 from "../img/a_a.png";
-import pic2 from "../img/a_b.png";
-import pic3 from "../img/a_c.png";
+import pic2 from "../img/a_b.png"; */
+/* import pic3 from "../img/a_c.png"; */
 import pic4 from "../img/a_d.png";
-import pic5 from "../img/a_e.png";
-import pic6 from "../img/a_f.png";
-import pic7 from "../img/a_g.png"; */
+/* import pic5 from "../img/a_e.png";
+import pic6 from "../img/a_f.png"; */
+/* import pic7 from "../img/a_g.png"; */
 
-import myVideo from "../video/goat_fight.mp4";
-
-const Video = () => {
+const CardView = () => {
   return (
     <>
       <div className="player">
-        <ReactPlayer controls url={myVideo} />
+        <Grid>
+          <CardContent style={{ border: "1px solid black" }}>
+            <CardMedia height="500" component="img" image={pic4} />
+
+            <Typography>Hallo</Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">AAA</Button>
+            <Button size="large">BBB</Button>
+          </CardActions>
+          <Card></Card>
+        </Grid>{" "}
       </div>
     </>
   );
 };
 
-export default Video;
+export default CardView;

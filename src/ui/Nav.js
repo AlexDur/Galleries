@@ -29,11 +29,6 @@ export default function Nav() {
         {" "}
         Who will be the <u>G</u>reatest <u>O</u>f <u>A</u>ll <u>T</u>ime?
       </h1>
-      <img
-        style={{ width: 100, marginTop: 50 }}
-        src={boxing_ibf}
-        alt="IBF icon"
-      />
     </React.Fragment>
   );
 }
