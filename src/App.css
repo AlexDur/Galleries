@@ -136,8 +136,10 @@ input[type="text"] {
 }
 
 .player {
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 800px) {
