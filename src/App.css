@@ -8,9 +8,9 @@
 
 html,
 body {
-  background: linear-gradient(-90deg, #ee0e21, blue);
+  background: linear-gradient(-90deg, #a90412, blue);
   background-size: 800% 800%;
-  animation: gradient 7s ease infinite;
+  animation: gradient 10s ease infinite;
   height: 100vh;
 }
 
