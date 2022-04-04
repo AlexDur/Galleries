@@ -21,7 +21,7 @@ const CardView = () => {
     <>
       <div className="player">
         <Grid>
-          <CardContent style={{ border: "1px solid black" }}>
+          <CardContent style={{ border: "3spx solid black" }}>
             <CardMedia height="500" component="img" image={pic4} />
 
             <Typography>Hallo</Typography>
@@ -29,6 +29,7 @@ const CardView = () => {
           <CardActions>
             <Button size="small">AAA</Button>
             <Button size="large">BBB</Button>
+            <Button size="medium">CCC</Button>
           </CardActions>
           <Card></Card>
         </Grid>{" "}
