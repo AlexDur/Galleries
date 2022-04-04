@@ -140,6 +140,7 @@ input[type="text"] {
   display: inline-block;
   justify-content: center;
   align-items: center;
+  border: 5px groove white;
 }
 
 @media (max-width: 800px) {
