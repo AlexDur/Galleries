@@ -8,9 +8,9 @@
 
 html,
 body {
-  background: linear-gradient(-90deg, #a90412, blue);
-  background-size: 800% 800%;
-  animation: gradient 10s ease infinite;
+  background: linear-gradient(45deg, red, blue);
+  background-size: 100%;
+
   height: 100vh;
 }
 
@@ -135,14 +135,6 @@ input[type="text"] {
   padding-bottom: 10px;
 }
 
-.player {
-  margin-top: 20px;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  border: 5px groove white;
-}
-
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -169,4 +161,29 @@ input[type="text"] {
 
 #phrase::nth-of-type(2n) {
   color: red;
+}
+
+.pagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 250px;
+  margin-top: 2rem;
+  position: "absolute";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.player {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px groove white;
+  position: relative;
 }

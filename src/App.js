@@ -4,7 +4,7 @@ import "./App.css";
 import Header from "./ui/Header";
 import ProjectsGrid from "./ui/ProjectsGrid"; */
 import Nav from "./ui/Nav";
-import ImagesList from "./imageList/ImagesList";
+/* import Video from "./imageList/Video"; */
 import Container from "@mui/material/Container";
 /* import Uploads from "./upload/Uploads"; */
 
@@ -12,10 +12,10 @@ const App = () => {
   return (
     <Container maxWidth="xxl" sx={{ textAlign: "center", mt: "3rem" }}>
       <Nav />
-      {/* <Uploads /> */}
+
       <br />
       <br />
-      <ImagesList />
+      {/*    <Video /> */}
     </Container>
   );
 };
