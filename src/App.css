@@ -159,3 +159,14 @@ input[type="text"] {
     object-fit: contain;
   }
 }
+
+#phrase {
+  font-family: "Graduate, cursive";
+  font-weight: 400;
+  color: white;
+  font-size: 40px;
+}
+
+#phrase::nth-of-type(2n) {
+  color: red;
+}

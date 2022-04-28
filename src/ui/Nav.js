@@ -19,16 +19,15 @@ import boxing_ibf from "../img/boxing_ibf.png";
 export default function Nav() {
   return (
     <React.Fragment>
-      <h1
-        style={{
-          fontFamily: "Graduate, cursive",
-          fontWeight: 100,
-          color: "white",
-        }}
-      >
-        {" "}
-        Who will be the <u>G</u>reatest <u>O</u>f <u>A</u>ll <u>T</u>ime?
-      </h1>
+      <div id="phrase">
+        Who will be the&nbsp;
+        <span style={{ color: "red" }}>G</span>
+        reatest&nbsp;
+        <span style={{ color: "red" }}>O</span>f&nbsp;
+        <span style={{ color: "red" }}>A</span>
+        ll&nbsp;
+        <span style={{ color: "red" }}>T</span>ime?
+      </div>
       <img
         style={{ width: 100, marginTop: 50 }}
         src={boxing_ibf}
