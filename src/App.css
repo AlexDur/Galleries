@@ -8,10 +8,8 @@
 
 html,
 body {
-  background: linear-gradient(-90deg, #a90412, blue);
-  background-size: 800% 800%;
-  animation: gradient 10s ease infinite;
   height: 100vh;
+  font-family: "Baumans";
 }
 
 @keyframes gradient {
@@ -157,4 +155,64 @@ input[type="text"] {
     height: 300px;
     object-fit: contain;
   }
+}
+
+.menu_bar {
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  align-items: stretch;
+}
+
+#title {
+  transform: rotate(270deg);
+  color: "black";
+}
+
+.container {
+  color: rgb(237, 232, 232);
+  width: 80%;
+  text-align: center;
+  display: flex;
+  margin-top: 2%;
+  flex-direction: row;
+  background-image: linear-gradient(#e0c192, #f7d5a1);
+  justify-content: space-evenly;
+}
+
+.container li {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  transition: 1s;
+  background-color: #e13328;
+}
+
+.container li:nth-of-type(2n) {
+  background-color: #241616;
+}
+
+.container li:nth-of-type(3) {
+  background-color: #ab8e64;
+}
+.container li:hover:active {
+  background-color: #e13328;
+  border-radius: 70%;
+}
+
+.container li:hover:nth-of-type(2n) {
+  background-color: #ab8e64;
+  border-radius: 70%;
+}
+
+.container li:hover:nth-of-type(1n + 1) {
+  background-color: #ab8e64;
+  border-radius: 70%;
+}
+
+a {
+  color: inherit;
 }
