@@ -19,18 +19,20 @@ import Möbelwerkstatt from "./projects/Möbelwerkstatt";
 const App = () => {
   return (
     <>
-      <div className="menu_bar">
-        <h1 id="title"> bauhaus</h1>
-        <div className="container">
-          <li>Architektur</li>
-          <li>Keramik Werkstatt</li>
-          <li>Möbelwerkstatt</li>
-          <li>Wandmalerei</li>
-          <li>
-            <a href="/weberei">Weberei</a>
-          </li>
-        </div>
+      <div className="container">
+        <li id="title" style={{ color: "black" }}>
+          {" "}
+          bauhaus
+        </li>
+        <li>Architektur</li>
+        <li>Keramik Werkstatt</li>
+        <li>Möbelwerkstatt</li>
+        <li>Wandmalerei</li>
+        <li>
+          <a href="/weberei">Weberei</a>
+        </li>
       </div>
+
       <Container maxWidth="xxl" sx={{ textAlign: "center", mt: "3rem" }} />
       {/* 
       <nav>
