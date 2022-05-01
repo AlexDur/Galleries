@@ -11,10 +11,12 @@ import Nav from "./ui/Nav";
 import Container from "@mui/material/Container";
 import axios from "axios";
 
-import Weberei from "./projects/Weberei";
-import Architekur from "./projects/Architektur";
-import Wandmalerei from "./projects/Wandmalerei";
-import Möbelwerkstatt from "./projects/Möbelwerkstatt";
+import Weberei from "./pages/Weberei";
+import Architekur from "./pages/Architektur";
+import Wandmalerei from "./pages/Wandmalerei";
+import Möbelwerkstatt from "./pages/Möbelwerkstatt";
+
+/* import teppich1 from "./img/teppich1.png"; */
 
 const App = () => {
   return (
@@ -24,13 +26,16 @@ const App = () => {
           {" "}
           bauhaus
         </li>
+        {/* <img src={teppich1} alt="logo" /> */}
         <li>Architektur</li>
         <li>Keramik Werkstatt</li>
         <li>Möbelwerkstatt</li>
         <li>Wandmalerei</li>
-        <li>
-          <a href="/weberei">Weberei</a>
-        </li>
+        {/*   <li>
+          <Link to="/weberei" element={<Weberei />}>
+            Weberei
+          </Link>
+        </li> */}
       </div>
 
       <Container maxWidth="xxl" sx={{ textAlign: "center", mt: "3rem" }} />
