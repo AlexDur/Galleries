@@ -1,7 +1,11 @@
 import React from "react";
 
 const Architektur = () => {
-  return <div>Architektur</div>;
+  return (
+    <>
+      <div className="page_container">Architektur</div>
+    </>
+  );
 };
 
 export default Architektur;

@@ -4,19 +4,19 @@ export default function Nav() {
   return (
     <React.Fragment>
       <div className="menu_bar">
-        <h1 id="title"> bauhaus</h1>
         <div className="container">
-          <nav>
+          <p>Home</p>
+          {/*    <nav>
             <ul>
               <li>Architektur</li>
               <li>Keramik Werkstatt</li>
               <li>Möbelwerkstatt</li>
               <li>Wandmalerei</li>
-              {/*  <li>
+              <li>
                 <a href="/weberei">Weberei</a>
-              </li> */}
+              </li>
             </ul>
-          </nav>
+          </nav> */}
           {/*    <div>Architektur</div>
           <div>Keramik Werkstatt</div>
           <div>Möbelwerkstatt</div>
