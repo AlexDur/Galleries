@@ -1,6 +1,7 @@
 //Introduce axios with useState and useEffect to avoid reloading of the whole page when new route is clicked in the menu bar ??
-
-//Why is "Link" not working in the "li" element?
+//Get button focused
+//Bring in logic on website
+//Keep shape of menubar item when its clicked ("focus" doesnt work)
 
 import React /* , { useState, useEffect } */ from "react";
 
@@ -16,6 +17,7 @@ import Architekur from "./pages/Architektur";
 import Wandmalerei from "./pages/Wandmalerei";
 import Möbelwerkstatt from "./pages/Möbelwerkstatt";
 import Keramikwerkstatt from "./pages/Keramik_Werkstatt";
+import teppich1 from "./img/teppich1.png";
 
 /* import teppich1 from "./img/teppich1.png"; */
 

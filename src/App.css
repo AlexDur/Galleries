@@ -10,6 +10,7 @@ html,
 body {
   height: 100vh;
   font-family: "Baumans";
+  background-color: rgb(237, 232, 232);
 }
 
 @keyframes gradient {
@@ -169,9 +170,8 @@ input[type="text"] {
   text-align: center;
   display: flex;
   margin-top: 2%;
-  padding-left: 3px;
   flex-direction: row;
-  background-image: linear-gradient(#e0c192, #f7d5a1);
+  background-image: rgb(237, 232, 232);
   justify-content: space-evenly;
   border: 1px solid black;
   text-decoration: none;
@@ -179,7 +179,7 @@ input[type="text"] {
 
 .container li {
   display: flex;
-
+  padding-left: 5px;
   justify-content: left;
   align-items: center;
   width: 140px;
@@ -199,16 +199,26 @@ input[type="text"] {
 .container li:nth-of-type(4) {
   background-color: #ab8e64;
 }
-.container li:focus:active {
-  background-color: rgb(237, 232, 232);
-  border-radius: 70%;
-}
-
 .container li:hover {
   background-color: rgb(237, 232, 232);
   border-radius: 70%;
   color: black;
+  border: 1px solid black;
 }
+
+/* PRYRAMIDE */
+/* .container li:hover {
+  width: 128px;
+  border-left: 70px dotted transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 130px solid blue;
+} */
+
+/* .container li:hover {
+  background-color: rgb(237, 232, 232);
+  border-radius: 70%;
+  color: black;
+} */
 
 /* .container li:hover:nth-of-type(1n + 1) {
   background-color: #ab8e64;
@@ -223,15 +233,13 @@ a {
 
 .page_container {
   color: black;
-  width: 72.5%;
+  width: 100%;
   text-align: left;
   display: inline-block;
-  margin-top: 2%;
 
-  padding-left: 3px;
   flex-direction: row;
-  background-image: linear-gradient(#e0c192, #f7d5a1);
+  background-color: rgb(237, 232, 232);
   justify-content: space-evenly;
-  border: 1px solid black;
+
   text-decoration: none;
 }

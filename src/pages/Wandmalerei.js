@@ -3,7 +3,7 @@ import React from "react";
 const Wandmalerei = () => {
   return (
     <>
-      <div className="page_container">Wandmalerei</div>
+      <div className="container">Wandmalerei</div>
     </>
   );
 };

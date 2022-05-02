@@ -3,7 +3,7 @@ import React from "react";
 const Architektur = () => {
   return (
     <>
-      <div className="page_container">Architektur</div>
+      <div className="container">Architektur</div>
     </>
   );
 };
