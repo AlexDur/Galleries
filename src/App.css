@@ -232,10 +232,11 @@ a {
 }
 
 .page_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   color: black;
   width: 100%;
   text-align: left;
-  display: inline-block;
 
   flex-direction: row;
   background-color: rgb(237, 232, 232);
