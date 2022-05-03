@@ -21,44 +21,39 @@ const Weberei = () => {
     <>
       <div className="container">
         <div className="page_container">
-          <div className="card" style={{ width: 240, marginBottom: 100 }}>
+          <div className="intro-text">
+            <h1>Weberei</h1> <h4>1919-1933</h4>
+            <p>
+              Die Weberei bestand zunächst in Weimar und ab 1925 in Dessau. Hier
+              wurden sowohl traditionell handwerkliche als auch industrielle
+              Webtechniken erprobt. Sie war eine der erfolgreichsten und
+              produktivsten Werkstätten am Bauhaus.
+            </p>
+          </div>
+          <div className="image_container">
+            <img src={werkstatt1} alt="Werkstatt" />
+            <h4 style={{ textAlign: "left" }}>Textilwerkstatt in Dessau</h4>
+          </div>
+          <div className="grid-item-3">
+            <div className="text-gi3">
+              <h3 style={{ fontWeigth: 800 }}>Meister/innen</h3>
+              <span>Anna Hans</span>{" "}
+            </div>
+          </div>
+          {/* <div className="card" style={{ width: 240, marginBottom: 100 }}>
             <img src={teppich1} alt="Stölzl, Element, 1927" />
             <div className="card-body">
               <h5 className="card-title">Gunta Stölzl, 1927 </h5>
               <p className="card-text">Element </p>
             </div>
-          </div>
-          <p>
-            {" "}
-            <span style={{ fontSize: 25 }}>Die Werkstatt für Weberei</span>,
-            auch als Textilwerkstatt bezeichnet, war eine Werkstatt am
-            Staatlichen Bauhaus.Sie bestand von 1919 bis 1933, zunächst in
-            Weimar und ab 1925 in Dessau. In der Werkstatt wurden überwiegend
-            Frauen ausgebildet. Sie war eine der erfolgreichsten und
-            produktivsten Werkstätten am Bauhaus.
-          </p>
-          <div className="card" style={{ width: 240, marginBottom: 100 }}>
-            <img src={werkstatt1} alt="Werkstatt" />
-            <div className="card-body">
-              <h5 className="card-title">Textilwerkstatt in Dessau</h5>
-            </div>
-          </div>
-          <img
-            style={{ widht: 600, height: 600 }}
-            src={werkstatt1}
-            alt="Teppich_Anna Stölzl"
-          />
-          <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich1}
-            alt="Teppich_Anna Stölzl"
-          />
-          <img
+          </div> */}
+
+          {/* <img
             style={{ widht: 300, height: 300 }}
             src={teppich3}
             alt="Teppich_Anna Stölzl"
-          />
-          <img
+          /> */}
+          {/*           <img
             style={{ widht: 300, height: 300 }}
             src={teppich2}
             alt="Teppich_Anna Stölzl"
@@ -68,6 +63,16 @@ const Weberei = () => {
             src={teppich4}
             alt="Teppich_Anna Stölzl"
           />
+          <img
+            style={{ widht: 300, height: 300 }}
+            src={teppich4}
+            alt="Teppich_Anna Stölzl"
+          />
+          <img
+            style={{ widht: 300, height: 300 }}
+            src={teppich4}
+            alt="Teppich_Anna Stölzl"
+          /> */}
         </div>
       </div>
     </>

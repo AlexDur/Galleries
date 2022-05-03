@@ -3,10 +3,9 @@ import * as React from "react";
 export default function Nav() {
   return (
     <React.Fragment>
-      <div className="menu_bar">
-        <div className="container">
-          <p>Home</p>
-          {/*    <nav>
+      <div className="container">
+        <p>Home</p>
+        {/*    <nav>
             <ul>
               <li>Architektur</li>
               <li>Keramik Werkstatt</li>
@@ -17,12 +16,11 @@ export default function Nav() {
               </li>
             </ul>
           </nav> */}
-          {/*    <div>Architektur</div>
+        {/*    <div>Architektur</div>
           <div>Keramik Werkstatt</div>
           <div>Möbelwerkstatt</div>
           <div>Wandmalerei</div>
           <div>Weberei</div> */}
-        </div>
       </div>
     </React.Fragment>
   );

@@ -13,132 +13,8 @@ body {
   background-color: rgb(237, 232, 232);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 a {
   text-decoration: none;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
-}
-
-.btn {
-  display: inline-block;
-  color: #fff;
-  background-color: #3fb573;
-  font-size: 1em;
-  text-align: center;
-  padding: 10px 15px;
-  border: 0;
-  margin: 10px 0;
-}
-
-header {
-  height: 200px;
-}
-
-header img {
-  width: 200px;
-}
-
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.search {
-  height: 100px;
-}
-
-input[type="text"] {
-  display: block;
-  padding: 10px;
-  font-size: 20px;
-  border: 0;
-  border-radius: 5px;
-  width: 60%;
-  margin: auto;
-  outline: none;
-}
-
-.cards {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
-.card {
-  cursor: pointer;
-  background-color: transparent;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.card h1 {
-  font-size: 25px;
-  border-bottom: 1px #fff solid;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-.card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-
-.card-front,
-.card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.card-back {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  transform: rotateY(180deg);
-}
-
-.card li {
-  list-style: none;
-  padding-bottom: 10px;
-}
-
-.player {
-  margin-top: 20px;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
 }
 
 @media (max-width: 800px) {
@@ -161,19 +37,21 @@ input[type="text"] {
   /*  transform: rotate(270deg); */
   color: "black";
   /*  border: 1px solid black; */
-  font-size: 30px;
+  font-size: 35px;
+  text-decoration: "none";
 }
 
 .container {
   color: rgb(237, 232, 232);
-  width: 90%;
+  max-width: 1200px;
   text-align: center;
   display: flex;
   margin-top: 2%;
   flex-direction: row;
   background-image: rgb(237, 232, 232);
-  justify-content: space-evenly;
-  border: 1px solid black;
+  justify-content: center;
+  gap: 2%;
+  /*   border: 1px solid black; */
   text-decoration: none;
 }
 
@@ -186,8 +64,27 @@ input[type="text"] {
   height: 140px;
   transition: 1s;
   background-color: #e13328;
+  border-radius: 2%;
 }
 
+.container li:visited {
+  background-color: transparent;
+  border-radius: 70%;
+  color: red;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+/* hover behaviour */
+.container li:hover {
+  background-color: rgb(237, 232, 232);
+  border-radius: 70%;
+
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+/* backgroundcolors */
 .container li:nth-of-type(1) {
   background-color: rgb(237, 232, 232);
 }
@@ -198,12 +95,6 @@ input[type="text"] {
 
 .container li:nth-of-type(4) {
   background-color: #ab8e64;
-}
-.container li:hover {
-  background-color: rgb(237, 232, 232);
-  border-radius: 70%;
-  color: black;
-  border: 1px solid black;
 }
 
 /* PRYRAMIDE */
@@ -233,14 +124,40 @@ a {
 
 .page_container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+
   color: black;
+  margin: 5% -2%;
+  padding: 2%;
   width: 100%;
-  text-align: left;
-
-  flex-direction: row;
-  background-color: rgb(237, 232, 232);
-  justify-content: space-evenly;
-
+  background-color: transparent;
   text-decoration: none;
+}
+
+/* .card {
+  grid-area: card;
+} */
+.intro-text {
+  margin-right: 50px;
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 25%;
+}
+
+.image_container {
+  font-size: 20px c;
+}
+
+.grid-item-3 {
+  grid-column: span 2;
+  margin-top: 10%;
+  margin-left: 31%;
+  width: 20%;
+  height: 120%;
+  border: 3px solid red;
+}
+
+.text-gi3 {
+  color: red;
+  padding-top: 20px;
 }
