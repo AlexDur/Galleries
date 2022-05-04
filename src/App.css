@@ -125,7 +125,6 @@ a {
 .page_container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-
   color: black;
   margin: 5% -2%;
   padding: 2%;
@@ -149,15 +148,63 @@ a {
 }
 
 .grid-item-3 {
-  grid-column: span 2;
-  margin-top: 10%;
-  margin-left: 31%;
-  width: 20%;
-  height: 120%;
-  border: 3px solid red;
+  grid-column: span 1;
+  margin-top: 25%;
+  margin-left: 40%;
+  width: 120%;
+  height: 85%;
+
+  background-color: #e13328;
+  /* border: 3px solid red;
+  border-left: 70px dotted;
+  border-right: 70px solid;
+  border-bottom: 130px solid red; */
 }
 
 .text-gi3 {
-  color: red;
-  padding-top: 20px;
+  color: rgb(237, 232, 232);
+  padding: 10px 30px;
+  margin-left: -5px;
+  font-weight: 1000;
+  text-align: left;
+}
+
+td {
+  padding: 15px;
+  margin-left: 5px;
+}
+
+.grid-item-4 {
+  margin-left: 30%;
+}
+
+.body-text {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 15%;
+  margin-left: 0px;
+  /*  border: 1px solid black; */
+}
+
+#title_arbeiten {
+  text-align: left;
+  /* border: 1px solid black; */
+  margin-top: 20%;
+}
+
+.images_2 {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.image_container2 {
+  margin-left: -15%;
+}
+
+.grid-item-6 {
+  /*  border: 1px solid black; */
+  margin-top: 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
