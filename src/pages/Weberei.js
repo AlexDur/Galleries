@@ -16,43 +16,43 @@ import teppich1 from "../img/teppich1.png";
 import teppich2 from "../img/teppich2.png";
 import teppich3 from "../img/teppich3.png";
 import teppich4 from "../img/teppich4.png";
+import teppich5 from "../img/teppich5.png";
+import teppich6 from "../img/teppich6.png";
 import werkstatt1 from "../img/werkstatt1.png";
 
 const images = [
   {
     img: teppich1,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
+    artist_year: "GUNTA STÖLZL, 1927 - 1928",
+    work_title: "Sclitzgobelin Rot-Grün",
   },
   {
     img: teppich2,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
+    artist_year: "BENITA KOCH-OTTE, 1923",
+    work_title: "Fünf Chöre",
   },
 
   {
     img: teppich3,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
+    artist_year: "GUNTA STÖLZL, 1926",
+    work_title: "plate 111",
   },
 
   {
     img: teppich4,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
+    artist_year: "GUNTA STÖLZL, 1927",
+    work_title: "Design für ein Jacquard gewebten Wandbehang ",
   },
-
-  /* {
-    img: teppich1,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
-  },
-
   {
-    img: teppich1,
-    artist_year: "Annis Albin, 1932-1933",
-    work_title: "Utopie",
-  },  */
+    img: teppich5,
+    artist_year: "LIS BEYER-VOGLER, 1928",
+    work_title: "Bauhaus-Kleid",
+  },
+  {
+    img: teppich6,
+    artist_year: "OTTI BERGER, 1931",
+    work_title: "Unbekannt",
+  },
 ];
 
 const Weberei = () => {
@@ -98,7 +98,7 @@ const Weberei = () => {
                 <tr>
                   <td>Anni Albers</td>
                   <td>Gertrud Arndt</td>
-                  <td>Otti Berger </td>
+                  <td>Otti Berger</td>
                 </tr>
                 <br />
                 <tr>
@@ -142,54 +142,19 @@ const Weberei = () => {
             </div>
           </div>
           <h1 id="title_arbeiten">Arbeiten</h1>
-          <div className="grid-item-5"></div>
-          <div className="grid-item-6">
-            {images.map(image => (
-              <div className="image_container2">
-                <img
-                  className="images_2"
-                  src={image.img}
-                  alt={image.work_title}
-                />
-                <div className="artist_year">{image.artist_year}</div>
-                <div className="work_title">{image.work_title}</div>
-              </div>
-            ))}
-          </div>
-          {/* <div className="card" style={{ width: 240, marginBottom: 100 }}>
-            <img src={teppich1} alt="Stölzl, Element, 1927" />
-            <div className="card-body">
-              <h5 className="card-title">Gunta Stölzl, 1927 </h5>
-              <p className="card-text">Element </p>
-            </div>
-          </div> */}
-
-          {/* <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich3}
-            alt="Teppich_Anna Stölzl"
-          /> */}
-          {/*           <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich2}
-            alt="Teppich_Anna Stölzl"
-          />
-          <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich4}
-            alt="Teppich_Anna Stölzl"
-          />
-          <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich4}
-            alt="Teppich_Anna Stölzl"
-          />
-          <img
-            style={{ widht: 300, height: 300 }}
-            src={teppich4}
-            alt="Teppich_Anna Stölzl"
-          /> */}
         </div>
+        <div className="grid-item-5"></div>
+      </div>
+      <div className="image_container2">
+        {images.map(image => (
+          <div className="card">
+            <img className="images_2" src={image.img} alt={image.work_title} />
+            <div>{image.artist_year}</div>
+            <div>{image.work_title}</div>
+            <br />
+            <br />
+          </div>
+        ))}
       </div>
     </>
   );
