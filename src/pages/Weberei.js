@@ -1,16 +1,8 @@
-/* Aufgabe: Anorden der Bilder horizontal ohne alles darüber zu verschieben */
+//TODO: When link in menubar clicked, circle shape should be maintained until another link is clicked
+//TODO Not only link (the term) should be clickable, but also the whole element
+//TODO When link (the term) is clicked, the color should not turn the hyperlink blue, but e.g. black
 
 import * as React from "react";
-
-/* import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid"; */
-
-/* import Container from "@mui/material/Container"; */
 
 import teppich1 from "../img/teppich1.png";
 import teppich2 from "../img/teppich2.png";

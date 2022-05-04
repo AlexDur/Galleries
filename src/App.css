@@ -51,6 +51,7 @@ a {
   background-image: rgb(237, 232, 232);
   justify-content: center;
   gap: 2%;
+  font-size: 17px;
   /*   border: 1px solid black; */
   text-decoration: none;
 }
@@ -122,6 +123,14 @@ a {
   color: inherit;
 }
 
+/* .image_container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+} */
+
 .page_container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -137,7 +146,7 @@ a {
   grid-area: card;
 } */
 .intro-text {
-  margin-right: 50px;
+  margin-right: 13%;
   font-size: 20px;
   text-align: justify;
   padding-top: 25%;
@@ -160,7 +169,7 @@ a {
 .text-gi3 {
   color: rgb(237, 232, 232);
   padding: 10px 30px;
-  margin-left: -5px;
+  margin-left: -20px;
   font-weight: 1000;
   text-align: left;
 }
@@ -177,8 +186,8 @@ td {
 .body-text {
   font-size: 20px;
   text-align: justify;
-  padding-top: 15%;
-  margin-left: 0px;
+  padding-top: 16%;
+  margin-left: 8%;
   /*  border: 1px solid black; */
 }
 
