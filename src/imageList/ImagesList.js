@@ -70,7 +70,7 @@ const itemData = [
     title: "abendsonne1",
   },
   {
-    img: pic4,
+    img: pic3,
     title: "saftig grün",
   },
   {
