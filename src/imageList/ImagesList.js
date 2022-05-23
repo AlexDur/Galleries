@@ -108,8 +108,8 @@ const itemData = [
 
   {
     img: pic16,
-    title: "abfahrt moosemaetlle",
+    title: "shadowy and sunny valley",
     cols: 3,
-    rows: 2,
+    rows: 3,
   },
 ];
