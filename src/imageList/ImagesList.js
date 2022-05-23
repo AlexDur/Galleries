@@ -15,6 +15,10 @@ import pic8 from "../img/bach.png";
 import pic10 from "../img/pic_1911.png";
 import pic11 from "../img/blue.png";
 import pic12 from "../img/pic111.png";
+import pic13 from "../img/sommerecke.png";
+import pic14 from "../img/wiese und aussicht.png";
+import pic15 from "../img/turm.png";
+import pic16 from "../img/mossemaettle_abfahrt.png";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -35,7 +39,7 @@ export default function QuiltedImageList() {
           rowWidth={200}
           style={{ paddingBottom: 100 }}
         >
-          {itemData.map(item => (
+          {itemData.map((item) => (
             <ImageListItem
               key={item.img}
               cols={item.cols || 1}
@@ -57,58 +61,55 @@ export default function QuiltedImageList() {
 const itemData = [
   {
     img: pic1,
-    title: "wood",
+    title: "wald innen",
     rows: 2,
     cols: 2,
   },
   {
     img: pic5,
-    title: "evening sun",
+    title: "abendsonne1",
   },
   {
     img: pic4,
-    title: "juicy green",
+    title: "saftig grün",
   },
   {
     img: pic6,
-    title: "evening sun 2",
+    title: "abendsonne2evening sun 2",
     cols: 2,
   },
   {
-    img: pic2,
-    title: "view2",
-    cols: 2,
-  },
-  {
-    img: pic3,
-    title: "bridge over creek",
+    img: pic15,
+    title: "turm",
+    cols: 1,
     rows: 2,
-    cols: 2,
-  },
-  {
-    img: pic7,
-    title: "dead tree with a view",
   },
   {
     img: pic8,
-    title: "bridge over creek",
+    title: "bach brücke",
+    rows: 2,
+    cols: 3,
+  },
+  {
+    img: pic14,
+    title: "wiesen mit aussicht",
+    cols: 3,
   },
   {
     img: pic10,
     title: "slightly sloping on the bike",
-    rows: 2,
-    cols: 2,
+    rows: 1,
+    cols: 1,
   },
   {
-    img: pic11,
-    title: "blue mountains",
-    cols: 2,
-    rows: 2,
+    img: pic13,
+    title: "sommerecke",
   },
+
   {
-    img: pic12,
-    title: "shadowy and sunny valley",
-    cols: 4,
-    rows: 3,
+    img: pic16,
+    title: "abfahrt moosemaetlle",
+    cols: 3,
+    rows: 2,
   },
 ];

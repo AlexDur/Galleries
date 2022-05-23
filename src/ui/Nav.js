@@ -18,7 +18,7 @@ import profil_A from "../img/profile_Alex.png";
 export default function Nav() {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
-  const handleClick = event => {
+  const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
@@ -32,7 +32,7 @@ export default function Nav() {
   });
   return (
     <React.Fragment>
-      <h1 style={{ fontFamily: "Bodoni Moda" }}> The Black Forest</h1>
+      <h1 style={{ fontFamily: "Bodoni Moda" }}> Schwarzwald Vibes</h1>
       <Box sx={{ display: "flex", alignItems: "center", textAlign: "center" }}>
         {!currentUser ? (
           <Button startIcon={<Terrain />}>Login</Button>
